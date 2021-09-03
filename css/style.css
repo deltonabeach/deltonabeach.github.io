@@ -41,16 +41,16 @@ section {
 
 .title-Page {
     color: var(--primary);
-    margin: var(--xl);
-    padding: var(--l);
-    font-size: var(--xl);
+    margin: var(--l);
+    padding: var(--xs);
+    font-size: var(--xxl);
 }
 
 .about-MeTitle {
     color: var(--primary);
-    margin: var(--xl);
-    padding: var(--m);
-    font-size: var(--l);
+    margin: var(--l);
+    padding: var(--xs);
+    font-size: var(--xl);
     line-height: 2;
 }
 
@@ -100,6 +100,7 @@ section {
     width: 100%;
     color: black;
     text-align: center;
+    font-size: var(--xl);
     /* padding: 14px 16px; */
   }
 
