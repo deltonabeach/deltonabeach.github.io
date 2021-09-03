@@ -51,7 +51,7 @@ section {
     margin: var(--l);
     padding: var(--xs);
     font-size: var(--xl);
-    line-height: 2;
+    line-height: 1;
 }
 
 .about-Page {
