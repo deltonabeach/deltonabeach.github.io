@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap%27');
 
 :root {
-  --primary: #fff;
-  --grey: #d8d7d7;
+  --primary: #800080;
+  --grey: #800080;
   --xs: 4px;
   --s: 8px;
   --m: 16px;
@@ -14,7 +14,7 @@
 body {
   margin: 12;
   padding: 12;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Yellowtail', monospace;
   font-weight: 1000;
 }
 
@@ -23,7 +23,7 @@ form {
 }
 
 html {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Yellowtail', monospace;
     overflow: scroll;
     /* scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
