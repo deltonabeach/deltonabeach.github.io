@@ -1,35 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="canvas.js"></script>
+    <script src="main.js"></script>
+    <script src="squares.js"></script>
+
     <meta charset="utf-8">
-    <title>Deltona Beach</title>
-    <meta name="description" content="The personal portfolio of Maximilian Porlein">
-    <meta name="author" content="Maximilian Porlein">
-    <meta name="viewport" content="user-scalable=yes">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
-<!-- <style>
-    body {
-      background-image: url('purplebeach.jpg');
-      background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: space;
-    }
-</style> -->
-
 <body>
-    <section style="background-color:	#FFFF99;">
-        <div class="title-Page" >
-            <p>Deltona Beach</p>
+    <div id="canvas_background"></div>
+
+    <div id="content">
+        <div class='unselect' id='header'> Deltona Beach</div>
+        <div class='unselect' id='tagline'>Sunday, 9/5/21 10pm - 1am</div>
+        <div class='unselect' id='tagline'>416 Beacon Street, Boston, MA 02115</div>
+    </div>
+
+    <div id="footer">
+        <div class="flex_split">
+            <div id="left_footer">Delta Tau Delta, MIT</div>
+            <div id="right_footer">
+                <a href="https://delts.mit.edu">
+                    Main Website
+                </a>
+            </div>
         </div>
-        <div class="about-MeTitle">
-            <p>Delta Tau Delta - Massachusetts Institute of Technology</p>
-            <p>416 Beacon Street, Boston, MA 02115</p>
-            <p>Sunday, September 5th, 10pm - 1am</p>
-            <p style="text-align:center;"><a style="text-decoration:underline;color: #800080;" href="https://delts.mit.edu">delts.mit.edu</a></p>
-        </div>
-    </section>
+    </div>
 </body>
 
 </html>
